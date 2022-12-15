@@ -8,7 +8,9 @@ The contract is deployed on the Sepolia test network and is accessible under the
 
 ## Getting Started
 To test this contract, download the files and either add your config.json from an earlier project into the folder or change the config-dummy.json to include your infura api key and mnemoic seed for you metamask wallet.
+
 Then connect to the sepolia network with the truffle cli using ```truffle console --network sepolia```
+
 After connecting to the network fetch the deployed instance of the smart contract with ```let instance = await lottery.deployed()```
 
 ## Buying Tickets
